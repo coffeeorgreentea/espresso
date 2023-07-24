@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react";
 
-type Props = {
-  children: React.ReactNode
+interface Props {
+  children: React.ReactNode;
 }
 
 const Layout = (props: Props) => {
   return (
     <div className="h-screen overflow-hidden bg-espresso-lightest text-white">
-
       {props.children}
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
