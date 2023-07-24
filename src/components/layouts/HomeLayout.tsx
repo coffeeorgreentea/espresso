@@ -9,8 +9,8 @@ import { useRouter } from "next/router";
 
 const navigation = [
   { name: "Generations", href: "/home", current: true },
-  { name: "Usage", href: "/app/usage", current: false },
-  { name: "Guide", href: "/app/guide", current: false },
+//   { name: "Usage", href: "/app/usage", current: false },
+//   { name: "Guide", href: "/app/guide", current: false },
 ];
 
 type HomeLayoutProps = {
