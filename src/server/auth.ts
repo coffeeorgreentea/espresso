@@ -78,7 +78,10 @@ export const authOptions: NextAuthOptions = {
      */
   ],
   pages: {
-    // signIn: "/login",
+    signIn: '/login',
+    // verifyRequest: '/auth/verify',
+    // error: '/auth/error', // Error code passed in query string as ?error=
+    // signOut: '/auth/signout',
   },
 };
 
